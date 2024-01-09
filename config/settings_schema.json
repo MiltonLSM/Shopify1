@@ -1336,16 +1336,32 @@
         "label": "t:settings_schema.badges.settings.sold_out_badge_color_scheme.label"
       },
       {
-        "type": "color",
+        "type": "select",
         "id": "custom_badge__background_color_scheme",
+        "options": [
+          {
+            "value": "background-1",
+            "label": "t:sections.all.colors.background_1.label"
+          },
+          {
+            "value": "inverse",
+            "label": "t:sections.all.colors.inverse.label"
+          },
+          {
+            "value": "accent-1",
+            "label": "t:sections.all.colors.accent_1.label"
+          },
+          {
+            "value": "accent-2",
+            "label": "t:sections.all.colors.accent_2.label"
+          },
+          {
+            "value": "background-2",
+            "label": "t:sections.all.colors.background_2.label"
+          }
+        ],
         "label": "Custom badge background color",
-        "default": "#eeeeee"
-      },
-      {
-        "type": "color",
-        "id": "custom_badge_text_color_scheme",
-        "label": "Custom badge text color",
-        "default": "#000000"
+        "default": "accent-2"
       }
     ]
   },
