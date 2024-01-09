@@ -1338,7 +1338,7 @@
       {
         "type": "color",
         "id": "custom_badge_color_scheme",
-        "label": "Custom Badge Background Color",
+        "label": "t:Custom Badge Background Color",
         "default": "#eeeeee"
       }
     ]
