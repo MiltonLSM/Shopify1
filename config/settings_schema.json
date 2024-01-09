@@ -1337,7 +1337,7 @@
       },
       {
         "type": "select",
-        "id": "custom_badge__background_color_scheme",
+        "id": "custom_badge_color_scheme",
         "options": [
           {
             "value": "background-1",
