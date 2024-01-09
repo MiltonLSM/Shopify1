@@ -1337,9 +1337,15 @@
       },
       {
         "type": "color",
-        "id": "custom_badge_color_scheme",
-        "label": "t:Custom Badge Background Color",
+        "id": "custom_badge__background_color_scheme",
+        "label": "Custom badge background color",
         "default": "#eeeeee"
+      },
+      {
+        "type": "color",
+        "id": "custom_badge_text_color_scheme",
+        "label": "Custom badge text color",
+        "default": "#000000"
       }
     ]
   },
