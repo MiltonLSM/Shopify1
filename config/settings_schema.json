@@ -1360,7 +1360,7 @@
             "label": "t:sections.all.colors.background_2.label"
           }
         ],
-        "label": "Custom badge background color",
+        "label": "Custom badge color scheme",
         "default": "inverse"
       }
     ]
