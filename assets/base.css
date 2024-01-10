@@ -339,7 +339,8 @@ body,
 .color-background-2,
 .color-inverse,
 .color-accent-1,
-.color-accent-2 {
+.color-accent-2,
+.color-for-him {
   color: rgba(var(--color-foreground), 0.75);
   background-color: rgb(var(--color-background));
 }
