@@ -43,6 +43,10 @@
   --color-foreground: var(--color-base-accent-2);
 }
 
+.color-badge-for-him {
+  --color-for-him: var(--color-base-for-him); 
+}
+
 :root,
 .color-background-1 {
   --color-link: var(--color-base-outline-button-labels);
