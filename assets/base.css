@@ -31,6 +31,17 @@
   --gradient-background: var(--gradient-base-accent-2);
 }
 
+.color-for-him {
+  --color-foreground: #ffffff;
+  --color-background: #3080F0;
+}
+
+.color-for-her {
+  --color-foreground: var(--color-base-solid-button-labels);
+  --color-background: var(--color-base-accent-2);
+  --gradient-background: var(--gradient-base-accent-2);
+}
+
 .color-foreground-outline-button {
   --color-foreground: var(--color-base-outline-button-labels);
 }
