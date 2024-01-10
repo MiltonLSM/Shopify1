@@ -105,6 +105,7 @@
     "badge_corner_radius": 2,
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
+    "for_him_badge_color_scheme": "#3080f0",
     "accent_icons": "text",
     "brand_headline": "© 2023 \/ Shopify, Inc.",
     "brand_description": "<p>©2023\/ Shopify, Inc.<\/p>",
