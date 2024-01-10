@@ -109,6 +109,34 @@
         "id": "gradient_background_2",
         "type": "color_background",
         "label": "t:settings_schema.colors.settings.gradient_background_2.label"
+      },
+      {
+        "type": "header",
+        "content": "Custom badge colors"
+      },
+      {
+        "type": "color",
+        "id": "custom_colors_text",
+        "default": "#ffffff",
+        "label": "Custom badge text"
+      },
+      {
+        "type": "color",
+        "id": "custom_colors_for_her",
+        "default": "#f03093",
+        "label": "For her"
+      },
+      {
+        "type": "color",
+        "id": "custom_colors_for_him",
+        "default": "#3080f0",
+        "label": "For him"
+      },
+      {
+        "type": "color",
+        "id": "custom_colors_for_others",
+        "default": "#f0b030",
+        "label": "For others"
       }
     ]
   },
