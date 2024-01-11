@@ -1364,10 +1364,16 @@
         "label": "t:settings_schema.badges.settings.sold_out_badge_color_scheme.label"
       },
       {
-        "type": "color",
+        "type": "select",
         "id": "for_him_badge_color_scheme",
+        "options": [
+          {
+            "value": "for-him",
+            "label": "For him"
+          }
+        ],
         "label": "Color for him",
-        "default": "#3080F0"
+        "default": "for-him"
       }
     ]
   },
