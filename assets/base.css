@@ -2893,9 +2893,9 @@ details-disclosure > details {
   line-height: 1;
   padding: 0.5rem 1.3rem 0.6rem 1.3rem;
   text-align: center;
-  background-color: "#3080f0"
-  border-color: "#3080f0";
-  color: "#ffffff";
+  background-color: {{ settings.background_for_him }};
+  border-color: rgba(var(--color-badge-border), var(--alpha-badge-border));
+  color: {{ settings.text_for_him }};
   word-break: break-word;
 }
 
