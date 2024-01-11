@@ -1365,13 +1365,13 @@
       },
       {
         "type": "color",
-        "id": "for_him_badge_background_color",
+        "id": "background_for_him",
         "label": "Color for him",
         "default": "#3080F0"
       },
       {
         "type": "color",
-        "id": "for_him_badge_text_color",
+        "id": "text_for_him",
         "label": "Color for him",
         "default": "#ffffff"
       }
