@@ -2884,7 +2884,7 @@ details-disclosure > details {
   word-break: break-word;
 }
 
-.custom_badge {
+.custom-badge {
   border: 1px solid transparent;
   border-radius: var(--badge-corner-radius);
   display: inline-block;
