@@ -128,7 +128,7 @@
       },
       {
         "type": "color",
-        "id": "colors_for_him",
+        "id": "custom_colors_for_him",
         "default": "#3080f0",
         "label": "For him"
       },
@@ -1364,16 +1364,16 @@
         "label": "t:settings_schema.badges.settings.sold_out_badge_color_scheme.label"
       },
       {
-        "type": "select",
-        "id": "for_him_badge_color_scheme",
-        "options": [
-          {
-            "value": "for-him",
-            "label": "For him"
-          }
-        ],
+        "type": "color",
+        "id": "for_him_badge_background_color",
         "label": "Color for him",
-        "default": "for-him"
+        "default": "#3080F0"
+      },
+      {
+        "type": "color",
+        "id": "for_him_badge_text_color",
+        "label": "Color for him",
+        "default": "#ffffff"
       }
     ]
   },
