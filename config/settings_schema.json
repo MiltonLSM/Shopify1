@@ -1366,13 +1366,13 @@
       {
         "type": "color",
         "id": "background_for_him",
-        "label": "Color for him",
+        "label": "Custom background",
         "default": "#3080F0"
       },
       {
         "type": "color",
         "id": "text_for_him",
-        "label": "Color for him",
+        "label": "Custom text",
         "default": "#ffffff"
       }
     ]
