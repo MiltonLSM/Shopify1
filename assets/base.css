@@ -135,7 +135,9 @@
 .color-inverse,
 .color-accent-1,
 .color-accent-2, 
-.color-for-him {
+.color-for-him, 
+.color-for-her, 
+.color-for-others {
   --color-badge-background: var(--color-background);
   --color-badge-border: var(--color-background);
   --alpha-badge-border: 1;
