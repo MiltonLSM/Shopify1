@@ -33,7 +33,6 @@
 
 .color-for-him {
   --color-foreground: #ffffff;
-  /* --color-background: #3080f0; */
   --color-background: var(--color-base-for-him);
 }
 
