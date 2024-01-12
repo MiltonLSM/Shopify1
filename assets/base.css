@@ -98,7 +98,8 @@
 .color-background-2 .button--secondary,
 .color-accent-1 .button--secondary,
 .color-accent-2 .button--secondary, 
-.color-for-him {
+.color-for-him, .color-for-her,
+.color-for-others {
   --color-button: var(--color-background);
   --color-button-text: var(--color-foreground);
 }
