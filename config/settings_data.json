@@ -13,8 +13,8 @@
     "colors_background_2": "#6b6b6b",
     "gradient_background_2": "",
     "custom_colors_text": "#ffffff",
-    "custom_colors_for_him": "#3080f0",
     "custom_colors_for_her": "#f03093",
+    "custom_colors_for_him": "#30f0b4",
     "custom_colors_for_others": "#f0b030",
     "type_header_font": "helvetica_n7",
     "heading_scale": 100,
@@ -109,7 +109,6 @@
     "badge_corner_radius": 2,
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
-    "for_him_badge_color_scheme": "#3080f0",
     "accent_icons": "text",
     "brand_headline": "© 2023 \/ Shopify, Inc.",
     "brand_description": "<p>©2023\/ Shopify, Inc.<\/p>",
@@ -131,6 +130,7 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "hydrogen",
+    "for_him_badge_color_scheme": "#3080f0",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
