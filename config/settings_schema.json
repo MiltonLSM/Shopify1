@@ -1362,18 +1362,6 @@
         ],
         "default": "inverse",
         "label": "t:settings_schema.badges.settings.sold_out_badge_color_scheme.label"
-      },
-      {
-        "type": "color",
-        "id": "background_for_him",
-        "label": "Custom background",
-        "default": "#3080F0"
-      },
-      {
-        "type": "color",
-        "id": "text_for_him",
-        "label": "Custom text",
-        "default": "#ffffff"
       }
     ]
   },
