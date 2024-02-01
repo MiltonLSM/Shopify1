@@ -6,7 +6,7 @@
         "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-0": {
           "type": "heading",
           "settings": {
-            "heading": "Sergio's Practice Store",
+            "heading": "Sergio's Practice",
             "heading_size": "h1"
           }
         },
@@ -155,12 +155,19 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_tags_7NdCCB": {
+      "type": "custom-tags",
+      "settings": {
+        "tag-color": "#a75656"
+      }
     }
   },
   "order": [
     "6a3bb789-ce10-45f5-ae67-e2063ef8c76b",
     "featured_collection",
     "f1552b18-6017-4231-810d-74e61da22c37",
-    "38cdf60f-e431-43b5-aac3-7e6215447d67"
+    "38cdf60f-e431-43b5-aac3-7e6215447d67",
+    "custom_tags_7NdCCB"
   ]
 }
