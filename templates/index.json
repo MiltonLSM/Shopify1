@@ -54,9 +54,9 @@
     "custom_tags_7NdCCB": {
       "type": "custom-tags",
       "settings": {
-        "tag-name": "New test tag",
-        "tag-background-color": "",
-        "tag-text-color": "",
+        "tag-name": "New test",
+        "tag-background-color": "#ca3535",
+        "tag-text-color": "#fff",
         "tag-position": "bottom left"
       }
     },
