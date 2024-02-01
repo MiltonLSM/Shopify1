@@ -1,4 +1,11 @@
-<h4>{{ section.settings.tag-name }}</h4>
+<h4 class="custom-tag">{{ section.settings.tag-name }}</h4>
+
+{% stylesheet %}
+.custom-tag {
+  background-color: {{ section.settings.tag-background-color }};
+  color: {{ section.settings.tag-text-color }};
+}
+{% endstylesheet %}
 
 {% schema %}
   {
