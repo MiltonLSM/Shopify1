@@ -6,7 +6,33 @@
         "type": "color",
         "id": "tag-color",
         "label": "Tag color"
+      },
+      {
+        "type": "select",
+        "id": "tag-position",
+        "label": "Tag position",
+        "options": [
+          {
+            "value": "bottom left",
+            "label": "t:settings_schema.badges.settings.position.options__1.label"
+          },
+          {
+            "value": "bottom right",
+            "label": "t:settings_schema.badges.settings.position.options__2.label"
+          },
+          {
+            "value": "top left",
+            "label": "t:settings_schema.badges.settings.position.options__3.label"
+          },
+          {
+            "value": "top right",
+            "label": "t:settings_schema.badges.settings.position.options__4.label"
+          }
+        ],
+        "default": "bottom left",
+        "label": "t:settings_schema.badges.settings.position.label"
       }
+      
     ],
     "presets": [{"name": "Custom tag section"}]
   }
