@@ -1,4 +1,6 @@
 .custom-tag {
   background-color: black;
   color: white;
+  font-weight: 300;
+  font-size: 14px;
 }
