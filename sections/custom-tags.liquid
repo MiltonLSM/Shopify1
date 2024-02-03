@@ -2,7 +2,7 @@
 
 <h4 class="custom-tag">{{ section.settings.tag-name }}</h4>
 {% for block in section.blocks %}
-  <h4 style="color: {{ block.settings.tag-text-color }}, background-color: {{ block.settings.tag-background-color }}">{{ block.settings.tag-name }}</h4>
+  <h4 style="color: {{ block.settings.tag-text-color }}; background-color: {{ block.settings.tag-background-color }}">{{ block.settings.tag-name }}</h4>
 {% endfor %}
   
 {% schema %}
