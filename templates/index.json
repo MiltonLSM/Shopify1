@@ -59,7 +59,7 @@
           "settings": {
             "tag-name": "Test 1",
             "tag-background-color": "#c73838",
-            "tag-text-color": "#ffffff",
+            "tag-text-color": "#45c0b6",
             "tag-position": "bottom left"
           }
         },
@@ -68,7 +68,7 @@
           "settings": {
             "tag-name": "Test 2",
             "tag-background-color": "",
-            "tag-text-color": "",
+            "tag-text-color": "#cf4a4a",
             "tag-position": "bottom left"
           }
         }
