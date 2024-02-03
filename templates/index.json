@@ -53,11 +53,31 @@
     },
     "custom_tags_7NdCCB": {
       "type": "custom-tags",
+      "blocks": {
+        "badges_hq8rbY": {
+          "type": "badges",
+          "settings": {
+            "tag-name": "Test 1",
+            "tag-background-color": "#c73838",
+            "tag-text-color": "#ffffff",
+            "tag-position": "bottom left"
+          }
+        },
+        "badges_UpjJJC": {
+          "type": "badges",
+          "settings": {
+            "tag-name": "Test 2",
+            "tag-background-color": "",
+            "tag-text-color": "",
+            "tag-position": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "badges_hq8rbY",
+        "badges_UpjJJC"
+      ],
       "settings": {
-        "tag-name": "New test",
-        "tag-background-color": "#ca3535",
-        "tag-text-color": "#fff",
-        "tag-position": "bottom left"
       }
     },
     "featured_collection": {
