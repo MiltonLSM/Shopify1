@@ -54,28 +54,18 @@
     "custom_tags_7NdCCB": {
       "type": "custom-tags",
       "blocks": {
-        "badges_hq8rbY": {
-          "type": "badges",
+        "badge_UVfVjF": {
+          "type": "badge",
           "settings": {
             "tag-name": "Test 1",
-            "tag-background-color": "#c73838",
+            "tag-background-color": "#e7d4d4",
             "tag-text-color": "#45c0b6",
-            "tag-position": "bottom left"
-          }
-        },
-        "badges_UpjJJC": {
-          "type": "badges",
-          "settings": {
-            "tag-name": "Test 2",
-            "tag-background-color": "",
-            "tag-text-color": "#cf4a4a",
             "tag-position": "bottom left"
           }
         }
       },
       "block_order": [
-        "badges_hq8rbY",
-        "badges_UpjJJC"
+        "badge_UVfVjF"
       ],
       "settings": {
       }
