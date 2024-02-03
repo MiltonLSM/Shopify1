@@ -62,10 +62,20 @@
             "tag-text-color": "#f0b030",
             "tag-position": "bottom left"
           }
+        },
+        "badge_hrbEdM": {
+          "type": "badge",
+          "settings": {
+            "tag-name": "Test 2",
+            "tag-background-color": "#d14848",
+            "tag-text-color": "#ffb1b1",
+            "tag-position": "bottom left"
+          }
         }
       },
       "block_order": [
-        "badge_UVfVjF"
+        "badge_UVfVjF",
+        "badge_hrbEdM"
       ],
       "settings": {
       }
