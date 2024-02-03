@@ -5,47 +5,53 @@
 {% schema %}
   {
     "name": "Custom tags",
-    "settings": [
+    "blocks": [
       {
-        "type": "text",
-        "id": "tag-name",
-        "label": "Tag name"
-      },
-      {
-        "type": "color",
-        "id": "tag-background-color",
-        "label": "Background color"
-      },
-      {
-        "type": "color",
-        "id": "tag-text-color",
-        "label": "Text color"
-      },
-      {
-        "type": "select",
-        "id": "tag-position",
-        "options": [
+        "name": "Custom badge",
+        "type": "badges",
+        "settings": [
           {
-            "value": "bottom left",
-            "label": "t:settings_schema.badges.settings.position.options__1.label"
+            "type": "text",
+            "id": "tag-name",
+            "label": "Tag name"
           },
           {
-            "value": "bottom right",
-            "label": "t:settings_schema.badges.settings.position.options__2.label"
+            "type": "color",
+            "id": "tag-background-color",
+            "label": "Background color"
           },
           {
-            "value": "top left",
-            "label": "t:settings_schema.badges.settings.position.options__3.label"
+            "type": "color",
+            "id": "tag-text-color",
+            "label": "Text color"
           },
           {
-            "value": "top right",
-            "label": "t:settings_schema.badges.settings.position.options__4.label"
+            "type": "select",
+            "id": "tag-position",
+            "options": [
+              {
+                "value": "bottom left",
+                "label": "t:settings_schema.badges.settings.position.options__1.label"
+              },
+              {
+                "value": "bottom right",
+                "label": "t:settings_schema.badges.settings.position.options__2.label"
+              },
+              {
+                "value": "top left",
+                "label": "t:settings_schema.badges.settings.position.options__3.label"
+              },
+              {
+                "value": "top right",
+                "label": "t:settings_schema.badges.settings.position.options__4.label"
+              }
+            ],
+            "default": "bottom left",
+            "label": "t:settings_schema.badges.settings.position.label"
           }
-        ],
-        "default": "bottom left",
-        "label": "t:settings_schema.badges.settings.position.label"
+          
+        ]
       }
-      
     ],
     "presets": [{"name": "Custom tag section"}]
   }
