@@ -58,8 +58,8 @@
           "type": "badge",
           "settings": {
             "tag-name": "Test 1",
-            "tag-background-color": "#e7d4d4",
-            "tag-text-color": "#45c0b6",
+            "tag-background-color": "#faefd9",
+            "tag-text-color": "#f0b030",
             "tag-position": "bottom left"
           }
         }
