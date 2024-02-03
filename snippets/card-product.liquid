@@ -162,7 +162,8 @@
 
             {%- endif -%}
 
-            {% render 'product-badges-snippet' %}
+            {% section 'custom-tags' %}
+            {% assign custom_badges = section.blocks[0].settings %}
 
               {% for badge in custom_badges %}
                 <p>{{ badge.tag-name }}</p>
