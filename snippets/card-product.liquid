@@ -166,6 +166,7 @@
             {% assign custom_badges = section.blocks[0].settings %}
 
               {% for badge in custom_badges %}
+                <p>{{ badge }}</p>
                 {% assign tag_name = badge.tag-name %}
                 {% assign bg_color = badge.tag-background-color %}
                 {% assign text_color = badge.tag-text-color %}
