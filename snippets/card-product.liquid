@@ -116,6 +116,8 @@
               </a>
             </h3>
           </div>
+
+          
           <div class="card__badge {{ settings.badge_position }}">
             {%- if card_product.available == false -%}
               <span
@@ -160,9 +162,23 @@
 
             {%- endif -%}
 
-              {%  for tag in card_product.tags %}
-                  <p>{{ tag }}</p>
+
+            {% assign custom_badges = section.blocks[0].settings %}
+
+              {% for badge in custom_badges %}
+                {% assign tag_name = badge.tag-name %}
+                {% assign bg_color = badge.tag-background-color %}
+                {% assign text_color = badge.tag-text-color %}
+              
+                {% if product.tags contains tag_name %}
+                  <span class="badge" style="background-color: {{ bg_color }}; color: {{ text_color }}">{{ tag_name }}</span>
+                {% endif %}
               {% endfor %}
+
+            {%  for tag in card_product.tags %}
+                <p>{{ tag }}</p>
+            {% endfor %}
+  
           </div>
         </div>
       </div>
