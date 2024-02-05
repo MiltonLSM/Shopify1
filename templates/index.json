@@ -71,11 +71,21 @@
             "tag-text-color": "#ffb1b1",
             "tag-position": "bottom left"
           }
+        },
+        "badge_XDDaNt": {
+          "type": "badge",
+          "settings": {
+            "tag-name": "Test 3",
+            "tag-background-color": "",
+            "tag-text-color": "",
+            "tag-position": "bottom left"
+          }
         }
       },
       "block_order": [
         "badge_UVfVjF",
-        "badge_hrbEdM"
+        "badge_hrbEdM",
+        "badge_XDDaNt"
       ],
       "settings": {
       }
